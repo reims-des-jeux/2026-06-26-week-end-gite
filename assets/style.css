@@ -249,7 +249,7 @@ h2 {
   color: var(--maroon);
   font-weight: 600;
 }
-.budget-table th:last-child { text-align: right; }
+.budget-table thead th:last-child, .budget-table td.pp { text-align: right; }
 .budget-table tr.group th {
   background: rgba(128,0,0,.05);
   color: var(--maroon);
@@ -264,8 +264,11 @@ h2 {
 .budget-table tr.total td {
   border-bottom: 0;
   border-top: 2px solid var(--maroon);
-  font-weight: 600;
+  background: rgba(128,0,0,.06);
+  font-weight: 700;
+  font-size: 1.05rem;
 }
+.budget-table tr.total .pp { color: var(--red); }
 .budget-table .tag {
   display: inline-block;
   margin-left: .5rem;
@@ -281,6 +284,7 @@ h2 {
 }
 .budget-table .tag.est { background: rgba(224,43,32,.12); color: var(--red); }
 .checklist.warn li::before { content: "⚠️"; }
+.table-note { color: var(--muted); font-size: .9rem; margin-top: .8rem; }
 
 /* À apporter — callout mis en valeur */
 .bring {
