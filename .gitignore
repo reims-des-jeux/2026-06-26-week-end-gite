@@ -1,0 +1,11 @@
+# Dossier de travail local, non versionné
+temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
