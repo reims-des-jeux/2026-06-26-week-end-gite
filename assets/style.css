@@ -49,12 +49,16 @@ a { color: var(--red); }
   flex-wrap: wrap;
 }
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
   font-weight: 800;
   font-size: 1.15rem;
   color: var(--maroon);
   text-decoration: none;
   letter-spacing: -.01em;
 }
+.brand-logo { height: 1.9em; width: auto; }
 .nav { display: flex; gap: 1.1rem; flex-wrap: wrap; }
 .nav a {
   color: var(--ink);
