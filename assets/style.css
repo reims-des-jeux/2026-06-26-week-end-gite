@@ -25,6 +25,15 @@ body {
 img { max-width: 100%; height: auto; display: block; }
 a { color: var(--red); }
 .muted { color: var(--muted); font-size: .95rem; }
+.warn {
+  margin-top: 1rem;
+  padding: .85rem 1.1rem;
+  background: rgba(224,43,32,.07);
+  border-left: 4px solid var(--red);
+  border-radius: 10px;
+  font-size: .95rem;
+}
+.warn strong { color: var(--red); }
 
 .container {
   width: 100%;
