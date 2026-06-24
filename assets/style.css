@@ -34,6 +34,46 @@ a { color: var(--red); }
   font-size: .95rem;
 }
 .warn strong { color: var(--red); }
+#repas { align-items: start; }
+#repas .warn { margin: .2rem 0 1.8rem; }
+#repas .checklist li { padding-block: .55rem; line-height: 1.5; }
+.menu-card {
+  margin: 1.2rem 0 0;
+  padding: 1.1rem 1.3rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 8px 22px rgba(0,0,0,.05);
+}
+.menu-head {
+  display: flex;
+  align-items: baseline;
+  gap: .6rem;
+  font-weight: 700;
+  color: var(--maroon);
+  margin-bottom: .7rem;
+}
+.menu-head span {
+  font-weight: 400;
+  font-size: .78rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.menu-list > div {
+  display: grid;
+  grid-template-columns: 7.5rem 1fr;
+  gap: .6rem;
+  padding: .5rem 0;
+  border-top: 1px dashed var(--line);
+}
+.menu-list > div:first-child { border-top: 0; }
+.menu-list dt {
+  color: var(--red);
+  font-weight: 600;
+  font-size: .9rem;
+}
+.menu-list dd { color: var(--ink); }
 
 .container {
   width: 100%;
