@@ -36,7 +36,6 @@ a { color: var(--red); }
 .warn strong { color: var(--red); }
 #repas { align-items: start; }
 #repas .warn { margin: .2rem 0 1.8rem; }
-#repas .checklist li { padding-block: .55rem; line-height: 1.5; }
 .menu-card {
   margin: 1.2rem 0 0;
   padding: 1.1rem 1.3rem;
@@ -218,13 +217,6 @@ h2 {
   border-left: 4px solid var(--red);
   padding-left: .7rem;
 }
-.checklist { list-style: none; }
-.checklist li {
-  padding: .4rem 0 .4rem 1.8rem;
-  position: relative;
-  color: var(--ink);
-}
-.checklist li::before { content: "🎲"; position: absolute; left: 0; }
 .links { margin-top: 1rem; color: var(--muted); }
 
 /* Faits du gîte — liste à emoji distincts */
