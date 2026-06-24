@@ -227,6 +227,18 @@ h2 {
 .checklist li::before { content: "🎲"; position: absolute; left: 0; }
 .links { margin-top: 1rem; color: var(--muted); }
 
+/* Faits du gîte — liste à emoji distincts */
+.facts { list-style: none; display: grid; gap: .65rem; }
+.facts li { display: flex; align-items: flex-start; gap: .75rem; }
+.facts-ico {
+  font-size: 1.35rem;
+  line-height: 1.5;
+  flex-shrink: 0;
+  width: 1.8rem;
+  text-align: center;
+}
+.facts li strong { color: var(--maroon); }
+
 /* Carte */
 .map-wrap {
   border-radius: var(--radius);
